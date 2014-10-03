@@ -1,0 +1,1 @@
+create table courses(subjectid int,subjectname varchar(50),credits int,profname varchar(50))

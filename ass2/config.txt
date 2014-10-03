@@ -1,0 +1,26 @@
+PAGESIZE 1024
+NUM_PAGES 1024
+PATH_FOR_DATA /home/prashant/sem6/db/ass1/
+BEGIN
+persons
+PersonID int
+LastName varchar(255)
+FirstName varchar(255)
+Address varchar(255)
+City varchar(255)
+END
+BEGIN
+student
+rollno int
+LastName varchar(255)
+FirstName varchar(255)
+Profname varchar(255)
+City varchar(255)
+END
+BEGIN
+courses
+subjectid int
+subjectname varchar(50)
+credits int
+profname varchar(50)
+END
